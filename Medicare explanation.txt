@@ -1,0 +1,90 @@
+===> means, Navigating
+
+Patient Username - PatientTest, Password - 
+Admin Username - AdminTest, Password - admin@123
+Doctor UserName - DoctorTest, Password - admin@123
+Pharmact user - PhTest, admin@123
+
+{*************Patient Logging***********}
+
+
+Create One Button ===> userRegistration.jsx page
+
+Send OTP ===> Patientlogin.jsx page
+Login button ===> Patientlogin.jsx ===> Home.jsx
+Book Appointment whole process steps relating this page ===> patientappoinment.jsx
+Profile page ===> Profile.jsx page
+MedicalHistory ===> patientmedicalhistory.jsx page
+
+/////Patient part completed//////////
+
+
+{**********Admin Part************}
+
+
+////////Login Page//////////
+
+Logging part - login.jsx page
+Log In button ===> medicalhistory.jsx page
+	Search Button - inside this same medicalhistory.jsx page
+	Add Patient button - addPatients.jsx page
+	view Details - addPatient.jsx page
+	Add Treatment - addrecord.jsx page
+	View Treatments - medicalhistory.jsx page
+		View Info - viewRecord.jsx page
+			Edit Detais - addrecord.jsx page
+			Remarks - remarks.jsx page
+			Prescription - prescription.jsx page
+			Invoice - invoice.jsx page
+
+Medical History ===> medicalhistory.jsx page
+	Search Button - inside this same medicalhistory.jsx page
+	Add Patient button - addPatients.jsx page
+	view Details - addPatient.jsx page
+	Add Treatment - addrecord.jsx page
+	View Treatments - medicalhistory.jsx page
+		View Info - viewRecord.jsx page
+			Edit Detais - addrecord.jsx page
+			Remarks - remarks.jsx page
+			Prescription - prescription.jsx page
+			Invoice - invoice.jsx page
+
+Drug Details ===> registerMedicine.jsx page
+	Add New Medicine ===> inside the registerMedicine.jsx page
+
+Pharmacy ===> pharmacy.jsx page
+	Medicines Button ===> inside the pharmacy.jsx page
+	
+User Profile ===> doctorprofile.jsx page
+
+Appointments ===> dailyappointments.jsx page
+
+Add Timeslots ===>  addTimeslot.jsx page
+
+Add Users ===> adduser.jsx page
+	Add User ===> inside the adduser.jsx page
+
+
+
+
+Medicare my part-
+
+2025/05/09 - Share the Prescription via SMS by connecting backend API using this company sms system, https://esystems.cdl.lk/Backend/SMSGateway/api/SMS/DTSSendMessage ( [HttpPost("send-prescription-message/{patientId}/{serialNo}")] - treatmentController.cs)
+
+2025/04 or 05 (wada krpu nathi dwsk meka dagann) - Modify the Drug stock when the Pharmacy issued drugs then the drug stocks are changed according to that.(Modify the existing backend API([HttpPatch("update/status/{patientId}/{serialNo}")] in treatmentController.cs file)  for that and modify frontend file for that)
+
+2025/05/14 - 
+
+
+
+
+
+
+
+
+
+Checking the responsiveness of pages - 
+
+
+
+
